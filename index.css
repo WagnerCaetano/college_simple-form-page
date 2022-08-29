@@ -6,6 +6,14 @@ body {
   padding-top: 10px;
 }
 
+#inputIdade {
+  width: 15%;
+}
+
+.idade-group {
+  gap: 30px;
+}
+
 .form-group label:after {
   padding-left: 5px;
   content: "*";

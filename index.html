@@ -58,15 +58,13 @@
           title="Certifique-se de escrever corretamente o CPF Ex:000.000.000-00" size="11" required />
       </div>
       <div class="form-group">
-        <label for="inputCPF"> Sexo</label>
-          <input type="radio" id="Fem" name="sex" value="Fem">
-          <label for="Fem">Feminino</label><br>
-          <input type="radio" id="Masc" name="sex" value="Masc">
-          <label for="Masc">Masculino</label><br>
+        <label for="inputSexo">Sexo </label>
+          <input type="radio" id="inputFeminino" value="Feminino"> Feminino</input>
+          <input type="radio" id="inputMasculino" value="Masculino"> Masculino</input>
       </div>
-      <div class="form-group">
-        <label for="Idade">Idade do Jogador: </label>
-        <input type="text" id="Idade" name="Idade">
+      <div class="idade-group form-group d-flex flex-row">
+        <label for="inputIdade">Idade </label>
+        <input type="text" class="form-control" id="inputIdade" placeholder="31" pattern="[0-9]{3}" required>
       </div>
       <div class="button d-flex justify-content-center align-items-center">
         <button type="submit" class="btn btn-primary w-25">Enviar Formulario</button>
