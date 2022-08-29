@@ -14,7 +14,7 @@ body {
   gap: 30px;
 }
 
-.form-group label:after {
+.required:after {
   padding-left: 5px;
   content: "*";
   color: red;
