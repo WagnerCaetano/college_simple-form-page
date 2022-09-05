@@ -29,30 +29,30 @@
     <h3>Preencha o formulário abaixo</h2>
       <div class="form-group">
         <label class="required" for="inputName">Nome (como consta no passaporte)</label>
-        <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Seu nome"
+        <input type="text" class="form-control" id="inputName" name="inputName"  aria-describedby="nameHelp" placeholder="Seu nome"
           required />
       </div>
       <div class="form-group">
         <label class="required" for="inputSobrenome">Sobrenome (como conta no passaporte)</label>
-        <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome" required />
+        <input type="text" class="form-control" id="inputSobrenome" name="inputSobrenome"  placeholder="Sobrenome" required />
       </div>
       <div class="form-group">
         <label class="required" for="inputApelido">Como você gostaria de ser chamado?</label>
-        <input type="text" class="form-control" id="inputApelido" placeholder="Apelido" required />
+        <input type="text" class="form-control" id="inputApelido" name="inputApelido" placeholder="Apelido" required />
       </div>
       <div class="form-group">
         <label class="required" for="inputE-mail">E-mail comercial</label>
-        <input type="email" class="form-control" id="inputE-mail" placeholder="exemplo@exemplo.com.br" required />
+        <input type="email" class="form-control" id="inputE-mail" name="inputE-mail" placeholder="exemplo@exemplo.com.br" required />
       </div>
       <div class="form-group">
         <label class="required" for="inputRG">RG</label>
-        <input type="text" class="form-control" id="inputRG" placeholder="00.000.000-0"
+        <input type="text" class="form-control" id="inputRG" name="inputRG"  placeholder="00.000.000-0"
         pattern="(\d{2}\.?\d{3}\.?\d{3}-?\d{1})"
           title="Certifique-se de escrever corretamente o RG Ex:00.000.000-0" required />
       </div>
       <div class="form-group">
         <label class="required" for="inputCPF">CPF</label>
-        <input type="text" class="form-control" id="inputCPF" placeholder="000.000.000-00"
+        <input type="text" class="form-control" id="inputCPF" name="inputCPF" placeholder="000.000.000-00"
         pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})"
         title="Certifique-se de escrever corretamente o CPF Ex:000.000.000-00" size="14" required />
       </div>
@@ -63,7 +63,7 @@
       </div>
       <div class="idade-group form-group d-flex flex-row">
         <label class="required" for="inputIdade">Idade </label>
-        <input type="text" class="form-control" id="inputIdade" placeholder="31" pattern="[0-9]{1,3}" required>
+        <input type="text" class="form-control" id="inputIdade" name="inputIdade" placeholder="31" pattern="[0-9]{1,3}" required>
       </div>
       <div class="form-group">
         <label class="required" for="birthday">Data de nascimento</label>
@@ -76,19 +76,19 @@
       </div>
       <div class="form-group">
         <label class="required" for="inputSoli_pass">Informe o status da solicitação do passaporte (data da entrevista ou retirada)</label>
-        <input type="text" class="form-control" id="inputSoli_pass" placeholder="Status" title="Certifique-se de preencher o status corretamente" size="30" required />
+        <input type="text" class="form-control" id="inputSoli_pass" name="inputSoli_pass"  placeholder="Status" title="Certifique-se de preencher o status corretamente" size="30" required />
       </div>
       <div class="form-group">
         <label class="required" for="inputN_pass">Número do passaporte</label>
-        <input type="text" class="form-control" id="inputN_pass" placeholder="AB123456" pattern="[A-Z]{2}[0-9]{6}"title="Certifique-se de escrever corretamente o Nº do passaporte Ex: AB123456" size="9" required />
+        <input type="text" class="form-control" id="inputN_pass" name="inputN_pass" placeholder="AB123456" pattern="[A-Z]{2}[0-9]{6}"title="Certifique-se de escrever corretamente o Nº do passaporte Ex: AB123456" size="9" required />
       </div>
       <div class="form-group">
         <label class="required" for="inputData_emi">Data de emissão do passaporte</label>
-        <input type="date" class="form-control" id="inputData_emissao" title="Certifique-se de preencher a data corretamente Ex:00/00/0000" size="11" required />
+        <input type="date" class="form-control" id="inputData_emissao" name="inputData_emi"  title="Certifique-se de preencher a data corretamente Ex:00/00/0000" size="11" required />
       </div>
       <div class="form-group">
         <label class="required" for="inputData_val">Data de validade do passaporte</label>
-        <input type="date" class="form-control" id="inputData_val" title="Certifique-se de preencher a data corretamente Ex:00/00/0000" size="11" required />
+        <input type="date" class="form-control" id="inputData_val" name="inputData_val" title="Certifique-se de preencher a data corretamente Ex:00/00/0000" size="11" required />
       </div>
         <div class="button d-flex justify-content-center align-items-center">
           <button type="submit" class="btn btn-primary w-25">Enviar</button>
